@@ -1,0 +1,26 @@
+{
+  "name": "yuanzhumc/helper",
+  "description": "php helper class. PHP助手类集",
+  "minimum-stability": "stable",
+  "license": "Apache-2.0",
+  "homepage": "",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "yuanzhumc",
+      "email": "yuanzhumc@163.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.3",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "yuanzhumc\\helper\\": "src"
+    },
+    "files": [
+      "src/helper.php"
+    ]
+  }
+}
